@@ -1,6 +1,7 @@
 pipeline {
     agent any
     tools {
+            git 'git'
             jdk 'jdk'
             maven 'maven'
             }
